@@ -21,8 +21,8 @@ export function Resources({ language }: any) {
           description: "Watch comprehensive training materials and tutorials",
           icon: Video,
           action: "Watch Now",
-          download: true,
-          link: "/video.mp4",
+          download: false,
+          link: "/videos",
         },
         {
           title: "LiFTVoiceApp",
@@ -83,7 +83,7 @@ export function Resources({ language }: any) {
                 </dd>
                 <a
                   href={resource.link}
-                  target="_blank"
+            
                   download={resource.download}
                   rel="noopener noreferrer"
                   className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-indigo-600 hover:text-indigo-500"
