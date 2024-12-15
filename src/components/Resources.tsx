@@ -21,8 +21,8 @@ export function Resources({ language }: any) {
           description: "Watch comprehensive training materials and tutorials",
           icon: Video,
           action: "Watch Now",
-          download: false,
-          link: "/videos",
+          download: true,
+          link: "/video.mp4",
         },
         {
           title: "LiFTVoiceApp",
